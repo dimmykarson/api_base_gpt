@@ -5,3 +5,6 @@ langchain==0.3.21
 langchain_community==0.3.20
 pypdf==5.4.0
 huggingface_hub==0.29.3
+langchain-ollama==0.2.3
+pydantic_ai==0.0.42
+rich==13.9.4
