@@ -8,3 +8,15 @@ Content-Type: application/pdf
 
 < ./exemplo.pdf
 --WebKitFormBoundary--
+
+
+###
+POST http://localhost:5000/analise/gpt
+Content-Type: multipart/form-data; boundary=WebKitFormBoundary
+
+--WebKitFormBoundary
+Content-Disposition: form-data; name="file"; filename="example.pdf"
+Content-Type: application/pdf
+
+< ./exemplo.pdf
+--WebKitFormBoundary--
